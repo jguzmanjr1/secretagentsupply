@@ -1,0 +1,143 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+html {
+  font-size: 18px;
+  background-color: white;
+  font-family: helvetica;
+  color: white;
+}
+h1,h4 {
+  font-weight: bold;
+  display: block;
+}
+div{
+  display: block;
+}
+body {
+  font-family: helvetica,sans-serif;
+  line-height: 1.4em;
+}
+
+
+.flexcontainer {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+header {
+  display: flex;
+  justify-content: center;
+  background-color: black;
+}
+.header {
+  width: 960px;
+  height: 2.33rem;
+  background-color: black;
+  justify-content: flex-start;
+  align-items: center;
+}
+.header h2 {
+  font-size: 1rem;
+  align-items: center;
+  align-content: center;
+}
+.header img {
+  padding-left: 0.5rem;
+  padding-right: 1rem;
+  height: 1.5rem;
+}
+
+
+.banner {
+  background-image: url("/Users/JorgeGuzman/Desktop/Projects/secretagentsupply/resources/photos/banner.jpeg");
+  height: 25rem;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+.banner-container {
+  width: 960px;
+  margin: 0 auto;
+}
+.banner-box {
+  padding: 2em 3em;
+  width: 20rem;
+  background-color: black;
+  color: white;
+  position: relative;
+  top: 9em;
+}
+.banner-box h1{
+  font-size: 2em;
+  line-height: 1.2em;
+  margin: 0.25em 0;
+}
+
+nav {
+  width: 100%;
+  background-color: firebrick;
+  color: white;
+  display: block;
+  align-content: center;
+}
+nav ul{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0.75rem 0;
+  list-style: none;
+}
+
+.products,.business-info {
+  display: flex;
+  justify-content: space-between;
+  margin: 3em 0 0 0;
+}
+.product-pen {
+  width: 30%;
+}
+.product-image {
+  border: 4px solid black;
+  padding: 2em 0;
+  height: 9em;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.description {
+  display: block;
+  background-color: black;
+  color: white;
+  text-align: center;
+  padding: 0.5em;
+}
+.product-watch {
+  width: 30%;
+}
+.product-glasses {
+  width: 30%;
+}
+.product-image img {
+  max-width: 8em;
+}
+.info {
+  width: 35%;
+}
+.info .title {
+  display: block;
+  background-color: black;
+  color: white;
+  padding: 1em 2em;
+}
+.info span {
+  color: black;
+}
+footer {
+  display: block;
+  background-color: black;
+  color: white;
+  padding: 5em 0;
+  margin-top: 4em;
+}
